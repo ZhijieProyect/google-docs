@@ -1,0 +1,48 @@
+Applications Used:
+Draft.js
+
+react                                                   # yarn add react-firebase-hooks
+                                                        # yarn add react-draft-wysiwyg draft-js
+Next.js
+
+Tailwind CSS
+Material UI
+
+Firebase - Firestore                                    # yarn add firebase / @next-auth/firebase-adapter
+NextAuth                                                # yarn add next-auth
+SSR
+
+https://tailwindcss.com/docs/guides/nextjs
+npx create-next-app -e with-tailwindcss google-docs
+yarn
+yarn run dev
+
+Css: @material-tailwind
+yarn add @material-tailwind/react -E
+import "@material-tailwind/react/tailwind.css";         # In _app.js
+import Button from "@material-tailwind/react/Button"    # In Headder.js
+import Header from '../components/Header';              # In _app.js
+
+Css description:
+md:XXX                                                  # Excute XXX when is Median Screen 
+
+Database:
+https://console.firebase.google.com/u/1/project/docs-b7a71/authentication/providers
+Building
+Authentication => 
+create .env.local with GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET and
+NEXTAUTH_URL=http://localhost:3000
+
+# Use for Images which is from weired Web Site, that is because WatchDog
+next.config.js                                          
+
+Code Help:
+function Header() {
+    return (
+        <div>
+        
+        </div>
+    )
+}
+
+export default Header;
